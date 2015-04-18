@@ -107,13 +107,13 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		58335B341AE2984500F56957 /* snapshots */ = {
+		58335B341AE2984500F56957 /* screenshots */ = {
 			isa = PBXGroup;
 			children = (
 				58335B371AE298EE00F56957 /* 2.png */,
 				58335B351AE2989900F56957 /* 1.png */,
 			);
-			name = snapshots;
+			name = screenshots;
 			sourceTree = "<group>";
 		};
 		58DD5AA31ADC03DE004E0FB6 /* images */ = {
@@ -142,7 +142,7 @@
 		58E4DC391ADAB1CE00B7D271 = {
 			isa = PBXGroup;
 			children = (
-				58335B341AE2984500F56957 /* snapshots */,
+				58335B341AE2984500F56957 /* screenshots */,
 				58335B331ADD561800F56957 /* SwiftBridgingHeader.h */,
 				58DD5AA31ADC03DE004E0FB6 /* images */,
 				58E4DC441ADAB1CE00B7D271 /* weather */,

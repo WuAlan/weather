@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		459BCCBBC16ABF126120879D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 300118C1D218B9DACAC26893 /* libPods.a */; };
+		58335B361AE2989900F56957 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 58335B351AE2989900F56957 /* 1.png */; };
+		58335B381AE298EE00F56957 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 58335B371AE298EE00F56957 /* 2.png */; };
 		58DD5AB41ADC03DE004E0FB6 /* Cloud-Refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 58DD5AA41ADC03DE004E0FB6 /* Cloud-Refresh.png */; };
 		58DD5AB51ADC03DE004E0FB6 /* cloudy2.png in Resources */ = {isa = PBXBuildFile; fileRef = 58DD5AA51ADC03DE004E0FB6 /* cloudy2.png */; };
 		58DD5AB61ADC03DE004E0FB6 /* cloudy2_night.png in Resources */ = {isa = PBXBuildFile; fileRef = 58DD5AA61ADC03DE004E0FB6 /* cloudy2_night.png */; };
@@ -46,6 +48,8 @@
 		2AE2468DC843019F87D4C342 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		300118C1D218B9DACAC26893 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		58335B331ADD561800F56957 /* SwiftBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftBridgingHeader.h; sourceTree = "<group>"; };
+		58335B351AE2989900F56957 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		58335B371AE298EE00F56957 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		58DD5AA41ADC03DE004E0FB6 /* Cloud-Refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud-Refresh.png"; sourceTree = "<group>"; };
 		58DD5AA51ADC03DE004E0FB6 /* cloudy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloudy2.png; sourceTree = "<group>"; };
 		58DD5AA61ADC03DE004E0FB6 /* cloudy2_night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloudy2_night.png; sourceTree = "<group>"; };
@@ -103,6 +107,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		58335B341AE2984500F56957 /* snapshots */ = {
+			isa = PBXGroup;
+			children = (
+				58335B371AE298EE00F56957 /* 2.png */,
+				58335B351AE2989900F56957 /* 1.png */,
+			);
+			name = snapshots;
+			sourceTree = "<group>";
+		};
 		58DD5AA31ADC03DE004E0FB6 /* images */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +142,7 @@
 		58E4DC391ADAB1CE00B7D271 = {
 			isa = PBXGroup;
 			children = (
+				58335B341AE2984500F56957 /* snapshots */,
 				58335B331ADD561800F56957 /* SwiftBridgingHeader.h */,
 				58DD5AA31ADC03DE004E0FB6 /* images */,
 				58E4DC441ADAB1CE00B7D271 /* weather */,
@@ -285,6 +299,8 @@
 				58DD5AB91ADC03DE004E0FB6 /* fog_night.png in Resources */,
 				58DD5ABD1ADC03DE004E0FB6 /* snow4.png in Resources */,
 				58E4DC4F1ADAB1CE00B7D271 /* Images.xcassets in Resources */,
+				58335B381AE298EE00F56957 /* 2.png in Resources */,
+				58335B361AE2989900F56957 /* 1.png in Resources */,
 				58DD5ABC1ADC03DE004E0FB6 /* shower3.png in Resources */,
 				58DD5ABF1ADC03DE004E0FB6 /* sunny.png in Resources */,
 				58DD5AC01ADC03DE004E0FB6 /* sunny_night.png in Resources */,
